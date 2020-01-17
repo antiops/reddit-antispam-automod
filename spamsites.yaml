@@ -1,7 +1,7 @@
 # I'm not an automod pro so if anything is wrong or if you would like to add more sites create a PR
 # ======================================
 # Spam domains (If your subreddit allows discord invites or any other sites listed then just remove them from the array
-domain: [discord.gg, discordapp.com, gonewild.life, slidingtrade.com, aponu.org, pladollmo.com, drespalda.com, dayy.site]
+domain: [discord.gg, discordapp.com, gonewild.life, slidingtrade.com, aponu.org, pladollmo.com, drespalda.com, dayy.site, cliptrend.co, cliptrend.org]
 action: remove
 author:
     set_flair: ["watch", watch-user-auto]

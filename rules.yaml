@@ -27,11 +27,11 @@ action_reason: 'Link Shortener'
 # Remove any mention of 'discord'
 # To add more words just follow the above example and remove the single word and create an array with all the words you want removed
 # eg. [word1, word2, word3]
-title+body: discord
+title+body: [discord, slutmesh]
 action: remove
 author:
     set_flair: ["watch", watch-user-auto]
-action_reason: 'Discord'
+action_reason: 'Spam Words'
 moderators_exempt: true
 
 ---

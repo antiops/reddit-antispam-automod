@@ -6,6 +6,7 @@ type: any
 author:
     flair_css_class: "watch-user-auto"
 action: remove
+action_reason: 'Shadow Ban'
 moderators_exempt: true
 
 ---
@@ -14,27 +15,17 @@ domain: [discord.gg, discordapp.com, discordapp.page.link, gonewild.life, gfycat
 action: remove
 author:
     set_flair: ["watch", watch-user-auto]
-action_reason: 'Spam/Malware/Adware'
+action_reason: 'Blacklisted Domain: {{match}}'
 comment: 'Your post has been removed, we do not allow spam.'
-moderators_exempt: true
-set_locked: true
-
----
-# Remove any mention of key words
-title+body+media_description: [discord, slutmesh]
-action: remove
-author:
-    set_flair: ["watch", watch-user-auto]
-action_reason: 'Spam Words: {{match-1}}'
 moderators_exempt: true
 set_locked: true
 
 ---
 # Words that usually cause beg spam or other unwanted messes
 # There is probably a better way to do this
-title+body: [anybody, mega, cashapp, paypal, dropbox, join, free, anyone, somebody post, Somebody post, i should post, should i post, dm, pm, groupchat, reup, add me, hmu, lmk, Lmk, i got it, I got it, send it, Send it, send them, Send them, me too pls, send to me, me too please, me too pls, send em, Send em, pls post, please post, post more, more pls, Annajournal, annajournal]
+title+body+media_description: [discord, slutmesh, anybody, mega, cashapp, paypal, dropbox, join, free, anyone, somebody post, Somebody post, i should post, should i post, dm, pm, groupchat, reup, add me, hmu, lmk, Lmk, i got it, I got it, send it, Send it, send them, Send them, me too pls, send to me, me too please, me too pls, send em, Send em, pls post, please post, post more, more pls, Annajournal, annajournal]
 action: remove
-action_reason: 'Word Blacklist: {{match-1}}'
+action_reason: 'Blacklisted Word: {{match}}'
 moderators_exempt: true
 
 ---
@@ -53,7 +44,7 @@ domain: [my.su, 5.gp, 0rz.tw, 1-url.net, 126.am, 1tk.us, 1un.fr, 1url.com, 1url.
 action: remove
 author:
     set_flair: ["watch", watch-user-auto]
-action_reason: 'Short URL: {{match-1}}'
+action_reason: 'Short URL: {{match}}'
 comment: 'Your post has been removed, we do not allow url shorteners.'
 set_locked: true
 moderators_exempt: true
@@ -64,7 +55,7 @@ domain: [grabify.link, bmwforum.co, leancoding.co, spottyfly.com, stopify.co, yo
 action: remove
 author:
     set_flair: ["watch", watch-user-auto]
-action_reason: 'IP Grabber: {{match-1}}'
+action_reason: 'IP Grabber: {{match}}'
 set_locked: true
 
 ---

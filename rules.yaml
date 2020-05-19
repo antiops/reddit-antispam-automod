@@ -11,7 +11,7 @@ moderators_exempt: true
 
 ---
 # Spam domains (If your subreddit allows discord invites or any other sites listed then just remove them from the array
-domain: [discord.gg, discordapp.com, discordapp.page.link, t.me, file-up.org, flash-files.com, fap.bar, nudes7.com, link-to.net, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, aponu.org, clip-trend.com, cliptrend.co, cliptrend.org, direct-link.net, exe.io, linkvertise.com, up-to-down.net, shrink-service.it, adshrink.it, url.gratis, abre.ai, aii.sh, raboninco.com, fiaharam.net, gestyy.com, adfoc.us, ouo.io, shorte.st, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, hoop.photo, getwinkapp.com, yubo.live]
+domain+body+title+media_description: [discord.gg, discordapp.com, discordapp.page.link, t.me, file-up.org, flash-files.com, fap.bar, nudes7.com, link-to.net, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, aponu.org, clip-trend.com, cliptrend.co, cliptrend.org, direct-link.net, exe.io, linkvertise.com, up-to-down.net, shrink-service.it, adshrink.it, url.gratis, abre.ai, aii.sh, raboninco.com, fiaharam.net, gestyy.com, adfoc.us, ouo.io, shorte.st, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, hoop.photo, getwinkapp.com, yubo.live]
 action: remove
 author:
     set_flair: ["watch", watch-user-auto]

@@ -11,7 +11,7 @@ moderators_exempt: true
 ---
 
 # Spam sites ( adware/malware/viruses )
-domain+body+title+media_description: [fap.bar, nudes7.com, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, clip-trend.com, cliptrend.co, cliptrend.org, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, yubo.live, allgirlsporn.com, ebonycumsluts.com, onlyfree.xyz, pornhdxxx.net, onlyfan.xyz, onlyfan.org, sheissearching.com, sluttycamshows.com, cosplaylewd.com, thotbook.tv, sharemynudes.com, milf.town, teenselfies.com, pawg.fans, asianfever.xyz, nudecamscf.blogspot.com, pornslam.com]
+domain+body+title+media_description: [fap.bar, nudes7.com, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, clip-trend.com, cliptrend.co, cliptrend.org, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, yubo.live, allgirlsporn.com, ebonycumsluts.com, onlyfree.xyz, pornhdxxx.net, onlyfan.xyz, onlyfan.org, sheissearching.com, sluttycamshows.com, cosplaylewd.com, thotbook.tv, sharemynudes.com, milf.town, teenselfies.com, pawg.fans, asianfever.xyz, nudecamscf.blogspot.com, pornslam.com, gknn.org, ibradome.com, thothub.cc, nudostar.com]
 action: remove
 action_reason: 'Blacklisted Domain (Spam domains): {{match}}'
 author:
@@ -22,7 +22,7 @@ set_locked: true
 
 ---
 # Spam filehosts & ad shorteners
-domain+body+title+media_description: [file-up.org, flash-files.com, link-to.net, file-link.net, direct-link.net, exe.io, linkvertise.com, up-to-down.net, shrink-service.it, adshrink.it, url.gratis, abre.ai, aii.sh, raboninco.com, fiaharam.net, gestyy.com, adfoc.us, ouo.io, shorte.st, justpaste.it, jpst.it]
+domain+body+title+media_description: [file-up.org, flash-files.com, link-to.net, file-link.net, direct-link.net, exe.io, linkvertise.com, up-to-down.net, shrink-service.it, adshrink.it, url.gratis, abre.ai, aii.sh, raboninco.com, fiaharam.net, gestyy.com, adfoc.us, ouo.io, shorte.st, justpaste.it, jpst.it, za.gl, zee.gl]
 action: remove
 action_reason: 'Blacklisted Domain (Bad filehost/shortener): {{match}}'
 author:

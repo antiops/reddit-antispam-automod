@@ -19,7 +19,7 @@ set_locked: true
 
 ---
 # Spam filehosts & ad shorteners
-domain+body+title+media_description: [file-up.org, flash-files.com, link-to.net, file-link.net, direct-link.net, exe.io, linkvertise.com, up-to-down.net, shrink-service.it, adshrink.it, url.gratis, abre.ai, aii.sh, raboninco.com, fiaharam.net, gestyy.com, adfoc.us, ouo.io, shorte.st]
+domain+body+title+media_description: [file-up.org, flash-files.com, link-to.net, file-link.net, direct-link.net, exe.io, linkvertise.com, up-to-down.net, shrink-service.it, adshrink.it, url.gratis, abre.ai, aii.sh, raboninco.com, fiaharam.net, gestyy.com, adfoc.us, ouo.io, shorte.st, justpaste.it, jpst.it]
 action: remove
 action_reason: 'Blacklisted Domain (Bad filehost/shortener): {{match}}'
 comment: 'Your post has been removed, we do not allow spam filehosts or ad shorteners.'

@@ -37,7 +37,7 @@ set_locked: true
 
 ---
 # Misc suspicious ( Proxies/IP Grabbers )
-domain+body+title+media_description: [ngrok.com, ngrok.io, grabify.link, bmwforum.co, leancoding.co, spottyfly.com, stopify.co, yoütu.be, discörd.com, minecräft.com, freegiftcards.co, disçordapp.com, fortnight.space, fortnitechat.site, joinmy.site, curiouscat.club, catsnthings.fun, yourtube.site, youtubeshort.watch, catsnthing.com, youtubeshort.pro, amishdatacenter.com, poweredbydialup.org, amishprincess.com, packetlivesmatter.club, packetlivesmatter.online, canadianlumberjacks.club, canadianlumberjacks.online, poweredbydialup.club, poweredbydialup.online, poweredbysecurity.org, poweredbysecurity.online]
+domain+body+title+media_description: [ngrok.com, ngrok.io, amishdatacenter.com, amishprincess.com, bmwforum.co, canadianlumberjacks.club, canadianlumberjacks.online, catsnthing.com, catsnthings.fun, curiouscat.club, datasig.io, datauth.io, dateing.club, discörd.com, disçordapp.com, fortnight.space, fortnitechat.site, freegiftcards.co, gaming-at-my.best, gamingfun.me, grabify.link, headshot.monster, imageshare.best, joinmy.site, leancoding.co, lovebird.guru, minecräft.com, otherhalf.life, packetlivesmatter.club, packetlivesmatter.online, poweredbydialup.club, poweredbydialup.online, poweredbydialup.org, poweredbysecurity.online, poweredbysecurity.org, progaming.monster, screenshare.host, screenshot.best, shrekis.life, spottyfly.com, stopify.co, trulove.guru, yourmy.monster, yourtube.site, youtubeshort.pro, youtubeshort.watch, yoütu.be]
 action: remove
 action_reason: 'Blacklisted Domain (Misc): {{match}}'
 comment: 'Your post has been removed due to a suspicious link.'

@@ -10,7 +10,7 @@ action_reason: 'Shadow Ban'
 moderators_exempt: true
 ---
 # Spam sites ( adware/malware/viruses )
-domain+body+title+media_description: [fap.bar, nudes7.com, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, clip-trend.com, cliptrend.co, cliptrend.org, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, yubo.live, allgirlsporn.com, ebonycumsluts.com, onlyfree.xyz, pornhdxxx.net, onlyfan.xyz, onlyfan.org]
+domain+body+title+media_description: [fap.bar, nudes7.com, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, clip-trend.com, cliptrend.co, cliptrend.org, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, yubo.live, allgirlsporn.com, ebonycumsluts.com, onlyfree.xyz, pornhdxxx.net, onlyfan.xyz, onlyfan.org, sheissearching.com, sluttycamshows.com]
 action: remove
 action_reason: 'Blacklisted Domain (Spam domains): {{match}}'
 comment: 'Your post has been removed, we do not allow spam.'

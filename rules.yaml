@@ -11,7 +11,7 @@ moderators_exempt: true
 ---
 
 # Spam sites ( adware/malware/viruses )
-domain+body+title+media_description: [fap.bar, nudes7.com, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, clip-trend.com, cliptrend.co, cliptrend.org, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, yubo.live, allgirlsporn.com, ebonycumsluts.com, onlyfree.xyz, pornhdxxx.net, onlyfan.xyz, onlyfan.org, sheissearching.com, sluttycamshows.com, cosplaylewd.com, thotbook.tv, sharemynudes.com, milf.town, teenselfies.com, pawg.fans, asianfever.xyz, nudecamscf.blogspot.com, pornslam.com, gknn.org, ibradome.com, thothub.cc, nudostar.com]
+domain+body+title+media_description: [fap.bar, nudes7.com, gonewild.life, gfycatcdn.club, gfycatcdn.xyz, redditplug.com, reddit.tube, slidingtrade.com, clip-trend.com, cliptrend.co, cliptrend.org, slutmesh.work, slutmesh.space, slutmesh.com, exclusivepornclub.com, pladollmo.com, tiktokonlyfans.com, tiktok.plus, drespalda.com, bestpornsites.net, bestpornamateur.com, yubo.live, allgirlsporn.com, ebonycumsluts.com, onlyfree.xyz, pornhdxxx.net, onlyfan.xyz, onlyfan.org, sheissearching.com, sluttycamshows.com, cosplaylewd.com, thotbook.tv, sharemynudes.com, milf.town, teenselfies.com, pawg.fans, asianfever.xyz, nudecamscf.blogspot.com, pornslam.com, gknn.org, ibradome.com, thothub.cc, nudostar.com, quickdates7.com, datingmaniavip.com, realgirlsnsfw.com, jizzedtothis.com, pornsauces.com, igorbnews.com, sluts500.com, rainbow500.com]
 action: remove
 action_reason: 'Blacklisted Domain (Spam domains): {{match}}'
 author:
@@ -52,13 +52,22 @@ moderators_exempt: true
 set_locked: true
 
 ---
-# Words that usually cause beg spam or other unwanted messes
+# Potentially unwanted words & content
+# Words that usually cause beg spam or other messes
 # There is probably a better way to do this
-title+body+media_description: [discord, slutmesh, anybody, mega, cashapp, paypal, dropbox, join, free, anyone, somebody post, Somebody post, i should post, should i post, dm, pm, groupchat, reup, add me, hmu, lmk, Lmk, i got it, I got it, send it, Send it, send them, Send them, me too pls, send to me, me too please, me too pls, send em, Send em, pls post, please post, post more, more pls, Annajournal, annajournal, add my, add her, follow my, SexyGirlHookup]
+title+body+media_description: [add her, add me, add my, Annajournal, annajournal, anybody, anyone, buy, buying, cashapp, discord, dm, dropbox, follow my, free, groupchat, hmu, I got it, i got it, i should post, join, kik, Lmk, lmk, me too please, me too pls, mega, more pls, paypal, please post, pls post, pm, post more, purchase, purchasing, reup, sale, seller, selling, Send em, send em, Send it, send it, Send them, send them, send to me, should i post, slutmesh, snap, snapchat, Somebody post, somebody post]
 action: remove
 action_reason: 'Blacklisted Word: {{match}}'
 moderators_exempt: true
 
+---
+# Spam subreddits /r/{name}
+title+body+media_description: [SexyGirlHookup, PornoCasino, BestCamSluts, PAWGSluts, HotButts]
+action: remove
+action_reason: 'Blacklisted subreddit: {{match}}'
+author:
+    set_flair: ["watch", watch-user-auto]
+moderators_exempt: true
 ---
 # Underage or blacklisted users/usernames (mainly for tiktok subreddits)
 title+body: [Ikykjen, ikykjen, Itssjusttjenn, belba.v2, belba_bunbunch, noellehear, bella_cortese_14, iloveducks, jessicadylen, dylen]
@@ -77,7 +86,7 @@ set_locked: true
 moderators_exempt: true
 
 ---
-# Generics
+# Remove content from new/ish accounts
 type: comment
 author:
     account_age: < 30 day
@@ -91,3 +100,17 @@ author:
 action: remove
 action_reason: 'Post: Account is less than 30 days old.'
 comment: 'Sorry, your post has been removed due to account age. A moderator may manually approve it.'
+---
+
+# Remove 3+ reports and send modmail
+reports: 3
+action: remove
+modmail_subject: "Multiple reports."
+modmail: The above {{kind}} posted by /u/{{author}} received 3+ reports and has been removed.
+---
+
+# Slur filter
+type: comment
+body (regex): ["n(1|i)g(g?(3|e)?r)?s?", "chinks?", "spi(c|k)s?", "gooks?", "crack(er|a)s?", "fag(got(ry)?|gy)?s?", "trann(ys?|ies?)", "(towel|rag)heads?", "(c|k)oons?", "goatfuckers?", "autis(t|m)?s?", "(re)?tard(ed)?s?", "gay"]
+action: remove
+action_reason: Comment filter - {{match}}

@@ -55,22 +55,14 @@ set_locked: true
 # Potentially unwanted words & content
 # Words that usually cause beg spam or other messes
 # There is probably a better way to do this
-title+body+media_description: [add her, add me, add my, Annajournal, annajournal, anybody, anyone, buy, buying, cashapp, discord, dm, dropbox, follow my, free, groupchat, hmu, I got it, i got it, i should post, join, kik, Lmk, lmk, me too please, me too pls, mega, more pls, paypal, please post, pls post, pm, post more, purchase, purchasing, reup, sale, seller, selling, Send em, send em, Send it, send it, Send them, send them, send to me, should i post, slutmesh, snap, snapchat, Somebody post, somebody post]
+title+body+media_description: [add her, add me, add my, annajournal, anybody, anyone, buy, buying, cashapp, discord, dm, dropbox, follow my, free, groupchat, hmu, i got it, i should post, join, kik, lmk, me too please, me too pls, mega, more pls, paypal, please post, pls post, pm, post more, purchase, purchasing, reup, sale, seller, selling, send em, send it, send them, send to me, should i post, slutmesh, snap, snapchat, somebody post]
 action: remove
 action_reason: 'Blacklisted Word: {{match}}'
 moderators_exempt: true
 
 ---
-# Spam subreddits /r/{name}
-title+body+media_description: [SexyGirlHookup, PornoCasino, BestCamSluts, PAWGSluts, HotButts]
-action: remove
-action_reason: 'Blacklisted subreddit: {{match}}'
-author:
-    set_flair: ["watch", watch-user-auto]
-moderators_exempt: true
----
 # Underage or blacklisted users/usernames (mainly for tiktok subreddits)
-title+body: [Ikykjen, ikykjen, Itssjusttjenn, belba.v2, belba_bunbunch, noellehear, bella_cortese_14, iloveducks, jessicadylen, dylen]
+title+body: [ikykjen, itssjusttjenn, belba.v2, belba_bunbunch, noellehear, bella_cortese_14, iloveducks, jessicadylen, dylen]
 action: remove
 action_reason: 'Blacklisted User: {{match}}'
 

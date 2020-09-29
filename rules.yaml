@@ -50,7 +50,13 @@ author:
 comment: 'Your post has been removed due to a suspicious link.'
 moderators_exempt: true
 set_locked: true
+---
 
+# Mass spam crossposters and other ban evading subs
+type: crosspost submission
+crosspost_subreddit: 
+    name: ["AdultCamPromo", "PAWGSluts", "BestCamSluts", "HotButts", "PremiumSnapSluts", "PornoCasino", "FanCentroBabes", RileyReidWorld", "PornstarsClothed", "PhatButt", "JiaLissaClub", "Badgirlnatasha", "AsaAkiraWorld", "AbellaDangerClub", "IRage_Babe", "Amberly_Ray", "EsperanzaGomezWorld", "MelRoseMichaels", "AngelaWhiteWorld", "SammiStarfish", "AutumnFallsClub", "Rubyxo", "PremiumSnapArabs", "HotBootyClub", "AssZone", "HotAssClub", "Secretsofserenity", "SophieDeeClub", "Lilimissarab", "LelaStarWorld", "EvaElfieClub", "KinkyKatey_", "LanaRhoadesClub", "DaniDanielsClub", "AJApplegateWorld", "RoseMonroeClub", "EvaLoviaWorld", "CherieDeVilleClub", "MoriahMillsClub", "KarmenKarmaClub" , "PremiumSnapAsstastic", "Hometraining", "RomiRainClub"]
+action: remove
 ---
 # Potentially unwanted words & content
 # Words that usually cause beg spam or other messes

@@ -33,7 +33,7 @@ set_locked: true
 
 ---
 # Group referral and invite spam sites
-domain+body+title+media_description: [youtube.com, youtu.be, discord.gg, discordapp.com, discordapp.page.link, t.me, hoop.photo, getwinkapp.com]
+domain+body+title+media_description: [youtube.com, youtu.be, discord.gg, discordapp.com, discordapp.page.link, t.me, hoop.photo, getwinkapp.com, joinfambase.com]
 action: remove
 action_reason: 'Blacklisted Domain (Group/Invites): {{match}}'
 comment: 'Your post has been removed, we do not allow invite/group sites.'

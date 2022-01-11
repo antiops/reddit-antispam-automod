@@ -55,13 +55,13 @@ set_locked: true
 # Mass spam crossposters and other ban evading subs
 type: crosspost submission
 crosspost_subreddit: 
-    name: ["AdultCamPromo", "PAWGSluts", "BestCamSluts", "HotButts", "PremiumSnapSluts", "PornoCasino", "FanCentroBabes", RileyReidWorld", "PornstarsClothed", "PhatButt", "JiaLissaClub", "Badgirlnatasha", "AsaAkiraWorld", "AbellaDangerClub", "IRage_Babe", "Amberly_Ray", "EsperanzaGomezWorld", "MelRoseMichaels", "AngelaWhiteWorld", "SammiStarfish", "AutumnFallsClub", "Rubyxo", "PremiumSnapArabs", "HotBootyClub", "AssZone", "HotAssClub", "Secretsofserenity", "SophieDeeClub", "Lilimissarab", "LelaStarWorld", "EvaElfieClub", "KinkyKatey_", "LanaRhoadesClub", "DaniDanielsClub", "AJApplegateWorld", "RoseMonroeClub", "EvaLoviaWorld", "CherieDeVilleClub", "MoriahMillsClub", "KarmenKarmaClub" , "PremiumSnapAsstastic", "Hometraining", "RomiRainClub"]
+    name: ["AdultCamPromo", "PAWGSluts", "BestCamSluts", "HotButts", "PremiumSnapSluts", "PornoCasino", "FanCentroBabes", "RileyReidWorld", "PornstarsClothed", "PhatButt", "JiaLissaClub", "Badgirlnatasha", "AsaAkiraWorld", "AbellaDangerClub", "IRage_Babe", "Amberly_Ray", "EsperanzaGomezWorld", "MelRoseMichaels", "AngelaWhiteWorld", "SammiStarfish", "AutumnFallsClub", "Rubyxo", "PremiumSnapArabs", "HotBootyClub", "AssZone", "HotAssClub", "Secretsofserenity", "SophieDeeClub", "Lilimissarab", "LelaStarWorld", "EvaElfieClub", "KinkyKatey_", "LanaRhoadesClub", "DaniDanielsClub", "AJApplegateWorld", "RoseMonroeClub", "EvaLoviaWorld", "CherieDeVilleClub", "MoriahMillsClub", "KarmenKarmaClub" , "PremiumSnapAsstastic", "Hometraining", "RomiRainClub", "hugetitsinbikinis"]
 action: remove
 ---
 # Potentially unwanted words & content
 # Words that usually cause beg spam or other messes
 # There is probably a better way to do this
-title+body+media_description: [xxxtik, snap, snapcht, snapct, snpcht, hit me up, add her, add me, add my, annajournal, anybody, anyone, buy, buying, cashapp, discord, dm, dropbox, follow my, free, groupchat, hmu, i got it, i should post, join, kik, lmk, me too please, me too pls, mega, more pls, paypal, please post, pls post, pm, post more, purchase, purchasing, reup, sale, seller, selling, send em, send it, send them, send to me, should i post, slutmesh, snap, snapchat, somebody post]
+title+body+media_description: [xxxtik, snap, snapcht, snapct, snpcht, hit me up, add her, add me, add my, annajournal, anybody, anyone, buy, buying, cashapp, discord, dm, dropbox, follow my, free, groupchat, hmu, i got it, i should post, join, kik, lmk, me too please, me too pls, mega, more pls, paypal, please post, pls post, pm, post more, purchase, purchasing, reup, sale, seller, selling, send em, send it, send them, send to me, should i post, slutmesh, snap, snapchat, somebody post, hugetitsinbikinis]
 action: remove
 action_reason: 'Blacklisted Word: {{match}}'
 moderators_exempt: true
